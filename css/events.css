@@ -1,0 +1,196 @@
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+    background-color:  #002333;
+}
+
+
+.nav_custom{
+   
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+/* .fux{
+    overflow: hidden;
+    background-color: rgba(49, 49, 49, 0.479);
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 2; 
+}  */
+
+/* Panel card css starts here------------------------------------------- */
+
+.panel_type_bg{
+    background-image: url(../img/weirdbg.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+
+
+.ful_height{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.img_shadow{
+    box-shadow: 10px -10px #01FF85;
+    width: 70%;
+}
+@media screen and (max-width: 768px){
+   
+.img_shadow{
+    box-shadow: 10px -10px #01FF85;
+    width: 50%;
+}
+}
+.panel_type_content{
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px){
+    .panel_type_content{
+        font-family: Roboto;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-family: Roboto;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.btn_panel{
+    background-color: #01FF85;
+    padding: 4px;
+    padding-left: 19px ;
+    padding-right: 19px ;
+    color: #002333;
+    border-radius: 30px;
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+/* Panel card css ends here------------------------------------------- */
+
+
+/* Competion css starts here------------------------------------------ */
+
+.robo_font{
+    font-family: 'Roboto', sans-serif;   
+}
+.bg_transperant {
+    background: transparent;
+}
+.bg_them_color{
+    background-color: #002333;
+}
+
+.full_height{
+
+}
+
+.COMP_H1_CSS{
+    
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.under_comp{
+    text-shadow: 1.5px 1.5px #01FF85;
+    color:rgb(221, 226, 230);
+    text-decoration-line: underline;
+    text-decoration-color: #FFFFFF ;
+  
+}
+
+.inlien_blc{
+    display: inline-block;
+}
+
+table{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #01FF85;
+    padding: 15px;
+    /* padding-left: 15px; */
+}
+td{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+}
+
+.content_comp_container{
+    background-color: #01FF85;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.527)
+}
+.para_comp{
+    padding-top: 25px;
+    /* padding-bottom:5px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #002333;
+  
+}
+
+.img_comp{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.527)
+}
+
+.comp_btn{
+    border-radius: 30px;
+    background-color: #002333;
+    font-size: 20px;
+}
+
+/* Competion css ends here -------------------------------------------------*/

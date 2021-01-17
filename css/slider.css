@@ -1,0 +1,496 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ourSpeakers {
+  font-family: aerial-bold;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(236, 246, 255);
+}
+
+@media (max-width: 720px) {
+  .ourSpeakers {
+    font-family: aerial-bold;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+}
+
+#speakers {
+  position: static;
+  background-color: #002333;
+  margin: 0px;
+  padding: 0px;
+}
+#speakers ul {
+  list-style: none;
+}
+#speakers a {
+  text-decoration: none;
+}
+.container {
+  width: 100vw;
+  height: 74vh;
+  background-color: #002333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 350px;
+  height: 456px;
+  background-color: #1e1e26;
+  border-radius: 25px;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 20px 10px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.details p {
+  font-family: calibri;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 25px;
+}
+.marvel {
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: bebas kai;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+.logo {
+  height: 60px;
+}
+.box:hover {
+  background-color: #17171d;
+  transform-style: preserve-3d;
+  transform: scale(1.02);
+  transition: all ease 0.3s;
+}
+.box:hover .marvel {
+  color: #01ff85;
+  transition: all ease 0.5s;
+}
+/*--responsive for mobile phone--*/
+@media (max-width: 720px) {
+  .box {
+    width: 100%;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .model {
+    height: 250px;
+  }
+  .details p {
+    font-size: 25px;
+    width: 250px;
+  }
+}
+.speakerImage {
+  margin-bottom: 60px;
+}
+
+/* hex start */
+.hex {
+  position: relative;
+  height: 251px;
+  width: 251px;
+  background: #01ff85;
+  display: inline-block;
+  /* margin: 100px; */
+}
+
+.hex:before,
+.double:after {
+  position: absolute;
+}
+
+.hex:before {
+  top: 8px;
+  /* border width */
+  left: 8px;
+  /* border width */
+  height: calc(100% - 16px);
+  /* 100% - (2 * border width) */
+  width: calc(100% - 16px);
+  /* 100% - (2 * border width) */
+  background: #002333;
+}
+
+.hex,
+.hex:before,
+.double1:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double2:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double3:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double4:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double5:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double6:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double7:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double8:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.double9:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double10:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double11:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double12:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double13:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double14:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.double15:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double16:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.double17:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.double18:after {
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.double1:before {
+  content: "";
+  background: url("../img/newSpeakers/Hansal\ Mehta.jpeg"); /* ajit */
+  background-size: cover;
+}
+.double2:before {
+  content: "";
+  background: url("../img/newSpeakers/Jay\ Vijayan.jpg"); /* ajit */
+  background-size: cover;
+}
+
+.double3:before {
+  content: "";
+  background: url("../img/newSpeakers/TV\ Mohandas\ Pai.png"); /* ajit */
+  background-size: cover;
+}
+.double4:before {
+  content: "";
+  background: url("../img/newSpeakers/Aloknath\ De2.jpg");
+  background-size: cover;
+}
+.double5:before {
+  content: "";
+  background: url("../img/newSpeakers/Osborne\ Saldanha.jpg");
+  background-size: cover;
+}
+.double6:before {
+  content: "";
+  background: url("../img/newSpeakers/Kanav\ Arora.jpg");
+  background-size: cover;
+}
+.double7:before {
+  content: "";
+  background: url("../img/newSpeakers/Anupam\ gupta.jpeg"); /* problem -- solved */
+  background-size: cover;
+}
+.double8:before {
+  content: "";
+  background: url("../img/newSpeakers/Anurag\ Khurana.jpg");
+  background-size: cover;
+}
+.double9:before {
+  content: "";
+  background: url("../img/newSpeakers/arvind\ singhal.jpg");
+  background-size: cover;
+}
+.double10:before {
+  content: "";
+  background: url("../img/newSpeakers/Ashwin\ Srivastava.jpg");
+  background-size: cover;
+}
+.double11:before {
+  content: "";
+  background: url("../img/newSpeakers/aswini\ bajaj.jpg");
+  background-size: cover;
+}
+.double12:before {
+  content: "";
+  background: url("../img/newSpeakers/Bhagwan\ Chowdhry.jpg");
+  background-size: cover;
+}
+.double13:before {
+  content: "";
+  background: url("../img/newSpeakers/Chandra\ Sekhar.jpg");
+  background-size: cover;
+}
+.double14:before {
+  content: "";
+  background: url("../img/newSpeakers/Hanumant\ lal\ shukla.jpg");
+  background-size: cover;
+}
+.double15:before {
+  content: "";
+  background: url("../img/newSpeakers/K.E\ Raghunathan.jpg");
+  background-size: cover;
+}
+.double16:before {
+  content: "";
+  background: url("../img/newSpeakers/Lokesh\ Suji_1-2.jpeg");
+  background-size: cover;
+}
+/* .double15:before {
+  content: "";
+  background: url("../img/newSpeakers/Lokesh\ Suji.jpg");
+  background-size: cover;
+} */
+.double17:before {
+  content: "";
+  background: url("../img/newSpeakers/MV\ Padma\ Srivastava.png");
+  background-size: cover;
+}
+.double18:before {
+  content: "";
+  background: url("../img/newSpeakers/Amit\ Kumar.jpg");
+  background-size: cover;
+}
+.double19:before {
+  content: "";
+  background: url("../img/newSpeakers/Poornima\ Seetharaman.jpg");
+  background-size: cover;
+}
+.double20:before {
+  content: "";
+  background: url("../img/newSpeakers/Pushkar\ Sharma.jpg");
+  background-size: cover;
+}
+.double21:before {
+  content: "";
+  background: url("../img/newSpeakers/Radhakrishna.jpg");
+  background-size: cover;
+}
+.double22:before {
+  content: "";
+  background: url("../img/newSpeakers/Rafathullah\ Mohammed\ 2.jpg");
+  background-size: cover;
+}
+.double23:before {  /* problm -- solved*/
+  content: "";
+  background: url("../img/newSpeakers/Saurabh\ Mukherjea.jpg");
+  background-size: cover;
+}
+.double24:before {
+  content: "";
+  background: url("../img/newSpeakers/Shashank\ Randev.jpg");
+  background-size: cover;
+}
+.double25:before {
+  content: "";
+  background: url("../img/newSpeakers/swaminath\ J.jpg");
+  background-size: cover;
+}
+.double26:before {
+  content: "";
+  background: url("../img/newSpeakers/Swapan\ K\ Jana.jpg");
+  background-size: cover;
+}
+.double27:before { /*Problem -- solved */
+  content: "";
+  background: url("../img/newSpeakers/TN\ Hari_1.png");
+  background-size: cover;
+}
+.double28:before {
+  content: "";
+  background: url("../img/newSpeakers/V\ Krishna\ Mohan.jpg");
+  background-size: cover;
+}
+.double29:before { /* Problem -- solved*/
+  content: "";
+  background: url("../img/newSpeakers/vaibhav\ sisinty.jpg");
+  background-size: cover;
+}
+.double30:before {
+  content: "";
+  background: url("../img/newSpeakers/Anil\ Joshi.png");
+  background-size: cover;
+}

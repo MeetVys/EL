@@ -1,0 +1,251 @@
+@keyframes load {
+    0% {
+      transform: rotate3d(1, 0.75, -1, 0deg) scale(1, 1);
+    }
+    25% {
+      transform: rotate3d(1, 0.75, -1, 180deg) scale(0.8, 0.8);
+    }
+    50% {
+      transform: rotate3d(1, 0.75, -1, 360deg) scale(0.38, 0.38);
+    }
+    75% {
+      transform: rotate3d(1, 0.75, -1, 540deg) scale(0.8, 0.8);
+    }
+    100% {
+      transform: rotate3d(1, 0.75, -1, 720deg) scale(1, 1);
+    }
+  }
+  
+
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+    background-color:  #002333;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+
+#load-cont {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #002333;
+    z-index: 9;
+  }
+  
+  #load {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #01ff85;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -40px;
+    animation: load 3s linear infinite;
+  }
+  
+
+.nav_custom{
+   
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+
+
+.menu-item:hover {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+  }
+/* .fux{
+    overflow: hidden;
+    background-color: rgba(49, 49, 49, 0.479);
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 2; 
+}  */
+
+/* Panel card css starts here------------------------------------------- */
+
+.panel_type_bg{
+    background-image: url(../img/weirdbg.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+
+
+.ful_height{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.img_shadow{
+    box-shadow: 10px -10px #01FF85;
+    width: 70%;
+}
+@media screen and (max-width: 768px){
+   
+.img_shadow{
+    box-shadow: 10px -10px #01FF85;
+    width: 50%;
+}
+}
+.panel_type_content{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px){
+    .panel_type_content{
+        font-family: Roboto;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-family: Roboto;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.btn_panel{
+    background-color: #01FF85;
+    padding: 4px;
+    padding-left: 19px ;
+    padding-right: 19px ;
+    color: #002333;
+    border-radius: 30px;
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+/* Panel card css ends here------------------------------------------- */
+
+
+/* Competion css starts here------------------------------------------ */
+
+.robo_font{
+    font-family: 'Roboto', sans-serif;   
+}
+.bg_transperant {
+    background: transparent;
+}
+.bg_them_color{
+    background-color: #002333;
+}
+
+.COMP_H1_CSS{
+    
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.under_comp{
+    text-shadow: 1.5px 1.5px #01FF85;
+    color:rgb(221, 226, 230);
+    text-decoration-line: underline;
+    text-decoration-color: #FFFFFF ;
+  
+}
+
+.inlien_blc{
+    display: inline-block;
+}
+
+table{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #01FF85;
+    padding: 15px;
+    /* padding-left: 15px; */
+}
+td{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+}
+
+.content_comp_container{
+    background-color: #01FF85;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.527)
+}
+.para_comp{
+    padding-top: 25px;
+    /* padding-bottom:5px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #002333;
+  
+}
+
+.img_comp{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.527)
+}
+
+.comp_btn{
+    border-radius: 30px;
+    background-color: #002333;
+    font-size: 20px;
+}
+
+/* Competion css ends here -------------------------------------------------*/
+
