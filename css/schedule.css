@@ -1,0 +1,57 @@
+body {
+    background-color: #002333;
+    
+}
+
+#navcustom{
+    background-color: #002333;
+    
+}
+
+.rowt1{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-style: solid; 
+    border-top-width:7px ;
+    border-bottom-width:7px ;
+    border-color: #ffffff;
+}
+.rowt2{
+    border-style: solid; border-top-width:7px ; 
+    border-bottom-width:7px ;
+    border-color: #002333;
+    color: #ffffff;
+}
+.div1table {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    text-align: center; 
+    padding: 8px; 
+    font-size: 23px;
+    border-radius: 17px;
+}
+
+.div2table {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    text-align: center; 
+    padding: 8px; 
+    font-size: 23px;
+    border-radius: 17px;
+}
+
+.t2button{
+    background-color: #fafafa;
+    font-size: 20px; 
+    font-weight: 700;
+    width: 50%;
+    border-radius: 20px;
+}
+
+
+.t1button{
+    background-color: #002333;
+    font-size: 20px; 
+    font-weight: 700;
+    width: 50%;
+    border-radius: 20px;
+}
