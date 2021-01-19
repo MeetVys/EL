@@ -7,7 +7,15 @@ body {
     background-color: #002333;
     
 }
+.img1{
+    width: 400px;
+}
 
+@media screen and (max-width: 600px) {
+    .img1{
+        width: 400px;
+    }
+}
 .rowt1{
     background-color: rgba(255, 255, 255, 0.7);
     border-style: solid; 
@@ -43,7 +51,7 @@ body {
     background-color: #fafafa;
     font-size: 20px; 
     font-weight: 700;
-    width: 70px;
+    width: 80px;
     border-radius: 20px;
 }
 
@@ -52,6 +60,6 @@ body {
     background-color: #002333;
     font-size: 20px; 
     font-weight: 700;
-    width: 70px;
+    width: 80px;
     border-radius: 20px;
 }
