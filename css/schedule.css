@@ -8,12 +8,12 @@ body {
     
 }
 .img1{
-    width: 400px;
+    width: 500px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .img1{
-        width: 400px;
+        width: 200px;
     }
 }
 .rowt1{
