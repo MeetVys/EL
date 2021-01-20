@@ -6,6 +6,35 @@
   background-color:  #002333;
 } */
 
+/*-------------live css------------*/
+
+@keyframes animate {
+  0% {
+   /* transform: scale(0.1,0.1) rotate3d(1,0.75, -1, -180deg);*/
+    transform: translateX(1600px);
+
+    opacity: 0;
+  }
+
+}
+
+#live{
+  position: absolute;
+  left : 10%;
+  z-index: 99;
+}
+  
+#live .container{
+
+  border-style: dashed; 
+  border-width: 6px;
+  border-color: white;  
+  background-color: #002333;
+  animation: animate 5s linear;
+}
+
+/*--------------------------------------------------------*/
+
 @keyframes load {
   0% {
     transform: rotate3d(1, 0.75, -1, 0deg) scale(1, 1);
@@ -47,9 +76,10 @@ body {
   overflow-x: hidden;
 }
 
+
 #follow {
   position: fixed;
-  z-index: 10;
+  z-index: 999;
   bottom: 50px;
   left: 30px;
   height: 60px;
