@@ -6,33 +6,6 @@
   background-color:  #002333;
 } */
 
-/*-------------live css------------*/
-
-@keyframes animate {
-  0% {
-   /* transform: scale(0.1,0.1) rotate3d(1,0.75, -1, -180deg);*/
-    transform: translateX(1600px);
-
-    opacity: 0;
-  }
-
-}
-
-#live{
-  position: absolute;
-  left : 10%;
-  z-index: 99;
-}
-  
-#live .container{
-
-  border-style: dashed; 
-  border-width: 6px;
-  border-color: white;  
-  background-color: #002333;
-  animation: animate 5s linear;
-}
-
 /*--------------------------------------------------------*/
 
 @keyframes load {
@@ -650,4 +623,94 @@ border-radius: 3px;
 .footer-follow li a:hover{
   border-bottom: 3px solid #fff;
   color: #fff;
+}
+
+
+/* ---------------------------------------------------- greeting */
+
+.greetheading{
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+font-weight: 700;
+/* line-height: 176px; */
+color: #ffffff;
+text-align: center;
+
+}
+
+
+
+
+/*-------------live css------------*/
+
+@keyframes animate {
+  0% {
+   /* transform: scale(0.1,0.1) rotate3d(1,0.75, -1, -180deg);*/
+    transform: translateX(1600px);
+
+    opacity: 0;
+  }
+
+}
+
+#live{
+  position: absolute;
+  left : 10%;
+  z-index: 99;
+}
+
+@media screen and (max-width: 500px) {
+  #live{
+    position: absolute;
+    left : 0%;
+    z-index: 99;
+  }
+}
+ 
+
+.live_con{
+
+  border-style: dashed; 
+  border-width: 6px;
+  border-color: white;  
+  background-color: #002333;
+  animation: animate 5s linear;
+}
+
+.gretbut {
+  font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+border-color:#01ff85;
+border-style: solid;
+background-color: #ffffff;
+color: #002333;
+border-radius: 40px;
+
+}
+
+.gretbutclose {
+  font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+border-color:#01ff85;
+border-style: solid;
+background-color: #ffffff;
+color: #002333;
+border-radius: 30px;
+
+}
+
+
+.classForHiding{
+  visibility: hidden;
 }

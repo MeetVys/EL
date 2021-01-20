@@ -82,13 +82,32 @@
         </div>
 
     </nav>
-
-    <section id="live" >
-        <div class="container">
-            <div class="row" >
-                <h1 > E-summit is live Now!!!!!!!!!!! </h1>
+    <script>
+        function MeetFunctionClosing() {
+          document.getElementById("live").classList.add("classForHiding") = "Paragraph changed.";
+        }
+        </script>
+    <section id="live">
+        <div class="container live_con">
+            <div class="row">
+                <span class="greetheading"> E-SUMMIT 2021 <br>
+                    IS LIVE NOW!! <br>
+                    <button type="button" class="btn btn-primary gretbut">REGISTER</button>
+                    <button type="button" class="btn btn-primary gretbut">SCHEDULE</button>
+                    <br>
+                    <hr>
+                    <button type="button" id="clssum" class="btn btn-primary gretbutclose" onclick="MeetFunctionClosing()" >CLOSE X</button>
+                </span>
+                <br>
             </div>
+         
+           
+
+
         </div>
+
+
+
     </section>
 
     <br>
